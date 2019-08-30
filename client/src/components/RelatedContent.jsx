@@ -25,7 +25,7 @@ function RelatedContent() {
   useEffect(() => {
     async function fetchRelatedContent() {
       try {
-        let posts = await fetch("/api/Posts/Search/Database");
+        let posts = await fetch("/api/Posts/Search/MERN");
         let postsJson = await posts.json();
         addPosts(postsJson);
       } catch (err) {
