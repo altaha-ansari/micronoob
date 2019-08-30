@@ -1,0 +1,86 @@
+@media (max-width: 768px) {
+    /*-----------------------header-------------------*/
+    header {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    header img {
+        margin: 5px 0px 0px 0px;
+    }
+    header input {
+        margin: 0px 0px 10px 0px;
+    }
+    header button {
+        margin: 0px 0px 10px 0px;
+    }
+    header h1 {
+        margin: 10px 5px 5px 10px;
+    }
+    /*---------------------Menu Bar------------------------*/
+    #menu {
+        width: 90%;
+        padding-bottom: 5px;
+    }
+    #menu button {
+        margin: 10px;
+    }
+    /*-----------------------content area Homepage---------------------------*/
+    .container {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .card {
+        width: 94%;
+        margin: 10px;
+    }
+    .card h2 {
+        height: auto;
+        overflow: visible;
+    }
+    /*-----------------------content area article page---------------------------*/
+    #article {
+        float: none;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    #article address {
+        text-align: center;
+    }
+    #article img {
+        width: 70%;
+        height: 90%;
+    }
+    #relatedContents {
+        float: none;
+        width: 90%;
+        margin: auto;
+        height: 400px;
+    }
+    #commentInput {
+        width: 90%;
+        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #commentInput textarea {
+        width: 90%;
+    }
+    #commentInput #email {
+        width: 90%;
+    }
+    #unfoldComments {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #cmntDisplay {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #cmntDisplay textarea {
+        width: 90%;
+    }
+}

@@ -1,0 +1,23 @@
+#archives {
+    /* background-color: aqua; */
+    margin-top: 40px;
+}
+
+#archives h1 {
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    font-family: "Rubik Mono One", sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    /* border: 2px solid rgba(83, 109, 254, 0.7); */
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-left: 15px solid rgba(83, 109, 254, 0.7);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    #archives h1 {
+        width: 90%;
+    }
+}

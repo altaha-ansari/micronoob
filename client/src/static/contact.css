@@ -1,0 +1,54 @@
+#description {
+    width: 60%;
+    margin: auto;
+    border-top: 10px solid rgb(68, 138, 255);
+    border-bottom: 10px solid rgb(68, 138, 255);
+    font-family: "Rubik Mono One", sans-serif;
+    font-weight: lighter;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+#description h2 {
+    text-align: center;
+    font-family: "Abril Fatface", cursive;
+    letter-spacing: 2px;
+}
+
+#info p {
+    font-family: "Mali", cursive;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+#description form {
+    padding: 5px;
+}
+
+form #msg {
+    width: 70%;
+    height: 5em;
+    resize: none;
+}
+
+form button {
+    width: 100px;
+    padding: 2px;
+    border: none;
+    font-family: "Mali", cursive;
+    display: inline-block;
+    margin: none;
+    letter-spacing: 1px;
+    color: white;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+@media (max-width: 768px) {
+    #description {
+        width: 95%;
+    }
+    form #msg {
+        width: 60%;
+    }
+}

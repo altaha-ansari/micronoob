@@ -1,0 +1,34 @@
+#about h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+#about img {
+    border-radius: 20px;
+    margin: 20px;
+    float: left;
+    max-width: 100%;
+    width: 30%;
+}
+
+#about article {
+    width: 60%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 5%;
+    font-family: 'Mali', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+@media(max-width: 768px) {
+    #about img {
+        width: 80%;
+    }
+    #about article {
+        width: 90%;
+    }
+}
