@@ -37,7 +37,7 @@ router.get("/Posts/:id", (req, res) => {
 //@desc To search for posts
 router.get("/Posts/Search/:keyword", (req, res) => {
     let regex = new RegExp(req.params.keyword, "i");
-    Post.find({ Title: regex }, { Title: 1, Post_num: 1 })
+    Post.find({ Tags: regex }, { Title: 1, Post_num: 1 })
         .then(post => res.json(post))
         .catch(err => res.status(404).json(err));
 });

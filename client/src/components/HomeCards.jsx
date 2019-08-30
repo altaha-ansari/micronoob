@@ -50,8 +50,10 @@ function HomeCards() {
       let ExtraPostsJson = await ExtraPosts.json();
       let EPJLength = await ExtraPostsJson.length;
       if (EPJLength !== 0)
-        addPosts([...posts, ExtraPostsJson[0], ExtraPostsJson[1]]);
-      else postSkip -= 2;
+        if (EPJLength === 2)
+          addPosts([...posts, ExtraPostsJson[0], ExtraPostsJson[1]]);
+        else addPosts([...posts, ExtraPostsJson[0]]);
+      else postSkip -= EPJLength;
     } catch (err) {
       console.log(err);
     }

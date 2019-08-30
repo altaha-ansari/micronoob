@@ -156,6 +156,8 @@ header button {
 #VMore {
     text-align: center;
     margin-bottom: 20px;
+    width: 100%;
+    display: inline-block;
 }
 
 #VMButton {
