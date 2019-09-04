@@ -12,7 +12,8 @@ header {
     box-shadow: 0 15px 20px rgba(83, 109, 254, 0.3);
     /* font-family: 'Mali', cursive; */
     /* font-family: 'Rubik Mono One', sans-serif; */
-    font-family: "Abril Fatface", cursive;
+    font-family: "Farro", sans-serif;
+    font-weight: bolder;
 }
 
 header img {
@@ -58,7 +59,8 @@ header button {
     background-image: linear-gradient(to left, #00c6fb 0%, #005bea 100%);
     color: white;
     letter-spacing: 1px;
-    font-family: "Rubik Mono One", sans-serif;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
 }
 
 
@@ -82,7 +84,7 @@ header button {
     border-top: 8px solid rgb(68, 138, 255);
     letter-spacing: 2px;
     width: 100px;
-    font-family: "Mali", cursive;
+    font-family: "Varela Round", sans-serif;
     font-weight: bolder;
     margin: 10px;
     border-radius: 3px;
@@ -110,7 +112,7 @@ header button {
 .card {
     width: 40%;
     text-align: center;
-    font-family: "Mali", cursive;
+    font-family: "Quicksand", sans-serif;
     color: rgba(0, 0, 0, 0.8);
     overflow: hidden;
     float: left;
@@ -128,7 +130,8 @@ header button {
 }
 
 .card h2 {
-    font-family: "Rubik Mono One", sans-serif;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bolder;
     height: 60px;
     overflow: hidden;
 }
@@ -148,8 +151,8 @@ header button {
     margin: 0px;
     float: left;
     margin-left: 20px;
-    font-style: normal;
-    font-weight: 100;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
     color: rgba(0, 0, 0, 0.8);
 }
 
