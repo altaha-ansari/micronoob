@@ -15,7 +15,8 @@
 }
 
 #info p {
-    font-family: "Mali", cursive;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
     text-align: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding: 5px;
@@ -36,7 +37,8 @@ form button {
     width: 100px;
     padding: 2px;
     border: none;
-    font-family: "Mali", cursive;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
     display: inline-block;
     margin: none;
     letter-spacing: 1px;
