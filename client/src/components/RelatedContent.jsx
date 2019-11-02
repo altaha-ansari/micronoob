@@ -8,7 +8,7 @@ function MiniCard({ content }) {
         style={{ color: "black", textDecoration: "none" }}>
         <div className='miniCard'>
           <img
-            src={`/Post_${content.Post_num}.jpg`}
+            src={content.Image_url}
             alt='loading'
             width='200'
             height='150'
