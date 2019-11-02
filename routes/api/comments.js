@@ -23,7 +23,16 @@ router.post("/comments/:id", (req, res) => {
 });
 
 // @route DELETE api/Comments/id
-// @desc DELETE A comment
+// @desc DELETE all comments of a post
+// @access Admin
+router.delete("/comments/:id", (req, res) => {
+    Comment.deleteMany({ Post_num: req.params.id })
+        .then(() => res.json({ comment_deleted: true }))
+        .catch(err => res.status(404).json({ comment_deleted: false }));
+});
+
+// @route DELETE api/Comments/id
+// @desc DELETE A comment via _id
 // @access Admin
 router.delete("/comments/:id", (req, res) => {
     Comment.deleteOne({ _id: req.params.id })

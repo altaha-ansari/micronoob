@@ -5,6 +5,7 @@ import SearchResults from "./components/SearchResults";
 import ArticlePage from "./Pages/ArticlePage";
 import Contact from "./Pages/Contact";
 import Archive from "./components/Archive";
+import Admin from "./Pages/Admin";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/About' component={About} />
           <Route path='/Contact' component={Contact} />
           <Route path='/Archive' component={Archive} />
+          <Route path="/Admin951701" component={Admin} />
         </Switch>
       </Router>
     </React.Fragment>

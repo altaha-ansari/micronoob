@@ -4,7 +4,7 @@ const Strips = ({ content, index }) => {
   return (
     <h1>
       <a
-        href={`/Article/${index}`}
+        href={`/Article/${content.Post_num}`}
         style={{ color: "rgb(50,50,50)", textDecoration: "none" }}>
         {content.Title}
       </a>

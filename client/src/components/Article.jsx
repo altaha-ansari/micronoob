@@ -14,7 +14,7 @@ function Card({ content }) {
           <br />
           <h1>{content.Title}</h1>
           <img
-            src={`/Post_${content.Post_num}.jpg`}
+            src={`/Post_${content.Image_url}.jpg`}
             alt='loading'
             height='600'
             width='800'

@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 function Card({ content, index }) {
   return (
     <a
-      href={`/Article/${index + 1}`}
+      href={`/Article/${content.Post_num}`}
       style={{ color: "black", textDecoration: "none" }}>
       <div className='card'>
         <address>
@@ -12,7 +12,7 @@ function Card({ content, index }) {
           <span>{content.Date}</span>
         </address>
         <img
-          src={`/Post_${content.Post_num}.jpg`}
+          src={`/Post_${content.Image_url}.jpg`}
           alt='loading'
           width='400'
           height='300'

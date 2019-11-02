@@ -8,7 +8,8 @@ const PostSchema = new Schema({
     Title: String,
     Body: String,
     Tags: String,
-    Post_num: Number
+    Post_num: Number,
+    Image_url: String
 });
 
 module.exports = Post = mongoose.model("post", PostSchema);

@@ -60,7 +60,8 @@ router.post("/Posts", (req, res) => {
         Title: req.body.Title,
         Body: req.body.Body,
         Tags: req.body.Tags,
-        Post_num: req.body.Post_num
+        Post_num: req.body.Post_num,
+        Image_url: req.body.Image_url
     });
     newPost
         .save()
