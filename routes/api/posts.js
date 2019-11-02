@@ -8,6 +8,7 @@ const Post = require("../../models/Post");
 // @access Admin
 router.get("/Posts/Limited/:lim/:skip", (req, res) => {
     Post.find()
+        .sort({Post_num: -1})
         .skip(parseInt(req.params.skip))
         .limit(parseInt(req.params.lim))
         .then(posts => res.json(posts))

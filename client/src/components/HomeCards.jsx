@@ -12,7 +12,7 @@ function Card({ content, index }) {
           <span>{content.Date}</span>
         </address>
         <img
-          src={`/Post_${content.Image_url}.jpg`}
+          src={content.Image_url}
           alt='loading'
           width='400'
           height='300'
