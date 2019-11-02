@@ -185,12 +185,16 @@ header button {
     width: 100%;
     display: block;
     margin: 0px;
+    padding: 10px;
     font-family: "Abril Fatface", cursive;
     letter-spacing: 3px;
     /* background-color: rgb(83, 109, 254); */
     background-color: rgba(68, 138, 255, 0.8);
+    text-align: center;
 }
 
-#footer h1 {
-    margin-left: 5%;
+#footer img {
+    margin: auto;
+    border-radius: 20px;
+    border: solid 2px white;
 }
