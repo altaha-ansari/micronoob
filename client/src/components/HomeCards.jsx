@@ -53,7 +53,13 @@ function HomeCards() {
         if (EPJLength === 2)
           addPosts([...posts, ExtraPostsJson[0], ExtraPostsJson[1]]);
         else addPosts([...posts, ExtraPostsJson[0]]);
-      else postSkip -= EPJLength;
+      else 
+      {
+        postSkip -= EPJLength;
+        let no_more_content = document.getElementById("no_more");
+        no_more_content.style.display = "block";
+        setTimeout(() => (no_more_content.style.display = "none"), 5000);
+      }
     } catch (err) {
       console.log(err);
     }
@@ -71,6 +77,10 @@ function HomeCards() {
           <button id='VMButton' onClick={e => addMorePosts()}>
             View More
           </button>
+        </div>
+        <div id="no_more">
+          <br />
+          <div id="no_more_content">OOPS! It's the End</div>
         </div>
       </section>
     </React.Fragment>

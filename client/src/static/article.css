@@ -59,7 +59,7 @@
     float: right;
     border-left: 1px solid rgba(83, 109, 254, 0.3);
     border-bottom: 1px solid rgba(83, 109, 254, 0.3);
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .miniCard {
@@ -75,7 +75,10 @@
 #relatedContents h2 {
     font-family: "Rubik Mono One", sans-serif;
     margin: 0px 0px 10px 0px;
-    color: rgb(60, 60, 60);
+    font-weight: lighter;
+    /* color: rgb(60, 60, 60); */
+    background-color: rgba(83, 109, 254, 0.8);
+    color: white;
 }
 
 #relatedContents h3 {
